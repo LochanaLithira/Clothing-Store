@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+    text-decoration: none;
+}
+
+.container {
+    width: 20%;
+    margin: 0 ;
+    align-self: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+.add-user-button,
+.update-button,
+.delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.add-user-button {
+    background-color: #000000; /* Black background for the button */
+    color: #ffffff; /* White text */
+    border: 1px solid #000; /* Black border */
+    margin-bottom: 10px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+}
+
+.add-user-button:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #000000; /* Black text on hover */
+}
+
+.update-button,
+.delete-button {
+    background-color: #000000; /* Black background for the buttons */
+    color: #ffffff; /* White text */
+    border: 1px solid #000; /* Black border */
+    padding: 3px 8px;
+}
+
+.update-button:hover,
+.delete-button:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #000000; /* Black text on hover */
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add space between button and table */
+    
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}

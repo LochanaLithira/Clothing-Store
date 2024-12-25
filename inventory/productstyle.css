@@ -1,0 +1,170 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Styling the container */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form header styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 2rem;
+}
+
+/* Styling form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Image styling */
+td img {
+    border-radius: 8px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Buttons */
+.add-product-button,
+.update-button,
+.delete-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-product-button {
+    background-color: #28a745;
+}
+
+.add-product-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.update-button {
+    background-color: #17a2b8;
+}
+
+.update-button:hover {
+    background-color: #138496;
+    transform: scale(1.05);
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}

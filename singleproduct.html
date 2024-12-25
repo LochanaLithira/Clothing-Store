@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Venomclothing.com</title>
+    
+    <link rel="stylesheet" href="styleshome.css">
+</head>
+<body>
+ <section id="header">
+    <a href="#"><img src="img/logo.png" ID="logoid" class="logo"></a>
+    <div>
+        <ul id="navbar">
+            <li><a  href="index.html">HOME</a></li>
+            <li><a class="active" href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="cart.html"><img src="images/carticon.ico"></a></li>
+      
+
+        </ul> 
+    </div>
+
+ </section>
+ <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="img/products/Cityscape Classic Shirt.jpg" width="100%" id="MainImg">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="img/products/Cityscape Classic Shirt.jpg" width="100%" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="img/products/Cityscape Classic Shirt1.jpg" width="100%" class="small-img">
+            </div>
+        </div>
+    </div>
+    <div class="single-pro-details">
+        <h6>Home/T-Shirts</h6>
+        <h3>MEN'S VENOM TSHIRT</h3>
+        <h4>3500LKR</h4>
+            <select>
+                <option>SELECT SIZE</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>S</option>
+                <option>L</option>
+            </select>
+            <input type="text" value="1">
+            <button class="spbutton">ADD TO CART</button>
+            <h4>PRODUCT DETAILS</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi officiis in odio unde,sit amet consectetur adipisicing elit. Error animi officiis in odio unde, nesciunt sint veritatis neque sequi soluta placeat ut sit quam ex sed quaerat, quod vitae exercitationem.</span>
+    </div>
+
+</section>
+<section id="product1" class="section-p1">
+    <h3>RELATED PRODUCTS</h3>
+    
+    <div class="pro-container">
+        <div class="pro">
+            <img src="img/products/Cityscape Classic Shirt.jpg" alt="">
+            <div class="des">
+                <span>SHIRTS</span>
+                <h5>CITYSCAPE CLASSIC SHIRT</h5>
+                 <H4>3000LKR</H4>
+            </div>
+            <button>ADD TO CART</button>
+        </div>
+        <div class="pro">
+            <img src="img/products/Clean Slate Tee.jpg" alt="">
+            <div class="des">
+                <span>SHIRTS</span>
+                <h5>CLEAN SLATE TEE</h5>
+                 <H4>2500LKR</H4>
+            </div>
+            <button>ADD TO CART</button>
+        </div>
+        <div class="pro">
+            <img src="img/products/Cosy Comfort Hoodie1.jpg" alt="">
+            <div class="des">
+                <span>SHIRTS</span>
+                <h5>COSY COMFORT HOODY</h5>
+                 <H4>4800LKR</H4>
+            </div>
+            <button>ADD TO CART</button>
+        </div>
+        <div class="pro">
+            <img src="img/products/Dreamcatcher Denim Jeans1.jpg" alt="">
+            <div class="des">
+                <span>SHIRTS</span>
+                <h5>DREAMCATCHER DENIM JEANS</h5>
+                 <H4>6500LKR</H4>
+            </div>
+            <button>ADD TO CART</button>
+        </div>
+    
+    </div>
+</section>
+ 
+
+<div id="footerdiv2">
+<footer class="section-p1">
+    <div class="col">
+        <img class="flogo" src="img/logo.png" alt="">
+        <h4>CONTACT</h4>
+        <p><strng>KADUWELA ROAD, MALABE, SRI LANKA</strong></p>
+        <p><strog></strong>+94 11 5987 628</p>
+        <p><strng>contact@Venomclothing.com</strong></p>
+        <div class="follow">
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="col1">
+        <h4>ABOUT</h4>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">PRIVACY POLICY</a>
+        <a href="#">TERMS AND CONDITIONS</a>
+        <a href="#">FAQ</a>
+    </div>
+    <div class="col">
+        <h4>MY ACCOUNT</h4>
+        <a href="#">SIGN IN</a>
+        <a href="#">USER ACCOUNT</a>
+        <a href="#">VIEW CART</a>
+        <a href="#">CHECKOUT</a>
+        <a href="#">WISHLIST</a>
+    </div>
+    <div class="col install">
+        <h4>INSTALL VENOM APP</h4>
+        <p>FROM APP STORE OR GOOGLE PLAY </p>
+        <div class="row">
+            <img src="img/app.jpg">
+            <img src="img/play.jpg">
+        </div>
+        <p>SECURED PAYMENT GATEWAYS</p>
+        <img src="img/pay.png">
+
+    </div>
+    <div class="copyright">
+        <p> © 2024 VENOMCLOTHING.COM. ALL RIGHTS RESERVED.</p>
+    </div>
+
+</footer>
+</div>
+<script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg=document.getElementsByClassName("small-img");
+    smallimg[0].onclick = function(){
+        MainImg.src= smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src= smallimg[1].src;
+    }
+    </script>
+
+
+</body>
+    
+</body>
+</html>
